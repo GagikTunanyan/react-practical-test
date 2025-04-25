@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# React Practical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a technical interview test app built with React and TypeScript. The goal is to evaluate the ability to identify and resolve bugs, improve code structure, and implement features based on existing `TODO` comments.
 
-## Available Scripts
+## 🛠️ Stack
 
-In the project directory, you can run:
+- React
+- TypeScript
+- SCSS Modules
+- Context API
 
-### `npm start`
+## 📦 Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Clone the repository and install dependencies:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+git clone https://github.com/GagikTunanyan/react-practical-test.git
+cd react-practical-test
+npm install
+```
 
-### `npm test`
+Start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+```
 
-### `npm run build`
+Build for production:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧪 What to Focus On
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The codebase includes various `TODO` comments throughout the app that highlight:
 
-### `npm run eject`
+- 🐛 Bugs that need fixing
+- 🎯 Missing or incomplete features
+- 🧹 Code that could be optimized or refactored
+- 🌐 Potential improvements for accessibility or UX
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project is intentionally left in an incomplete state to simulate real-world problem-solving scenarios during technical interviews.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+react-practical-test/
+├── public/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── context/        # Global state via Context API
+│   ├── pages/          # Application pages (e.g., Home)
+│   └── App.tsx         # Root component
+├── .env
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💡 Notes
 
-## Learn More
+- No external UI libraries are used to encourage implementation from scratch.
+- You are encouraged to follow clean code principles and separation of concerns.
+- Performance and user experience improvements are welcome.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT License
