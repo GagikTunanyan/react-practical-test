@@ -49,7 +49,7 @@ react-practical-test/
 ├── public/
 ├── src/
 │   ├── components/     # Reusable UI components
-│   ├── context/        # Global state via Context API
+│   ├── store/          # Global state using Redux Toolkit
 │   ├── pages/          # Application pages (e.g., Home)
 │   └── App.tsx         # Root component
 ├── .env
