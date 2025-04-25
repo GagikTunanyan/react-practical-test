@@ -3,6 +3,14 @@ import { Routes, BrowserRouter, Route, Navigate } from 'react-router-dom';
 import { Home, Signin, Signup, UserDetails, Users } from './pages';
 import { Navbar } from './components/Navbar';
 
+// TODO: Add route guards based on authentication state
+// - If the user IS authenticated, prevent access to `/signin` and `/signup` routes
+// - If the user is NOT authenticated, prevent access to `/home`, `/users`, and `/users/:id`
+// - You can use a `PrivateRoute` or `RequireAuth` wrapper component for protected pages
+// - Consider redirecting:
+//    - Authenticated users from `/signin` or `/signup` → to `/home`
+//    - Unauthenticated users from protected pages → to `/signin`
+
 function App() {
   // TODO create useWindowSize custom hook, and store window size and device information in the redux utilsSlice.ts used detectDevice action
   // useWindowSize(); 
