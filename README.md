@@ -31,6 +31,28 @@ Build for production:
 npm run build
 ```
 
+## 🌐 Backend Integration
+
+To simulate a real-world backend during development, you can choose one of the following:
+
+- ✅ **Use [https://reqres.in](https://reqres.in)** — A free public API for mock authentication and user data.
+
+- ✅ **Create custom mock API responses** using local `.json` files and simulate HTTP requests with `Promise`-based functions (e.g., with `setTimeout`).
+
+In both approaches:
+
+- Use **Axios** for all HTTP requests.
+- Configure **Axios interceptors** to handle:
+  - Adding auth tokens to headers
+  - Handling errors globally
+- Follow **RESTful API conventions**, such as:
+  - `GET /users`
+  - `POST /login`
+  - `GET /users/:id`
+
+> 📌 **Note**: Do not mix both options — use either the public API or your own mock backend for consistency.
+
+
 ## 🧪 What to Focus On
 
 The codebase includes various `TODO` comments throughout the app that highlight:
