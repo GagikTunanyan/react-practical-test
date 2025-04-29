@@ -10,7 +10,7 @@ interface Date {
 };
 
 // TODO implement promise.all function but with small changes
-// so example pas argumnet -> [promise, promise] call second promise after first promise resolving
+// so example pas argument -> [promise, promise] call second promise after first promise resolving
 interface PromiseConstructor {
     allWithMode<T>(
       promises: Array<Promise<T> | ((res?: any) => Promise<T>) >,

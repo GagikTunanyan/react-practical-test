@@ -20,7 +20,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
     } = props;
 
     // TODO write styles for coresponding props color and size, when pass props color: gray button color is gray, when pass size large button is large width and height
-    // use global css variables declare and use for exampe --blue: #1478a1, use in the styles color: var(--blue)
+    // use global css variables declare and use for example --blue: #1478a1, use in the styles color: var(--blue)
     const cs = `${styles.Button}`;
 
     return (

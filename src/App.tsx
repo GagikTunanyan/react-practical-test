@@ -13,11 +13,13 @@ import { Navbar } from './components/Navbar';
 
 function App() {
   // TODO create useWindowSize custom hook, and store window size and device information in the redux utilsSlice.ts used detectDevice action
-  // useWindowSize(); 
+  // useWindowSize();
+
+  // Show a loading component while the system determines whether you are authenticated.
 
   return (
     <div className="App">
-      {/* TODO show <Navbar /> when the user is authenticated */}
+      {/* TODO Create a layout for authenticated users, using the <Navbar /> component along with the page component. */}
       <Navbar />
       <BrowserRouter>
         <Routes>
