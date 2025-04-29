@@ -7,7 +7,7 @@ This is a technical interview test app built with React and TypeScript. The goal
 - React
 - TypeScript
 - SCSS Modules
-- Context API
+- Redux Toolkit
 
 ## 📦 Setup
 
